@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #ccc;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #222;
+    border: 1px solid #333;
+    box-shadow: 0 0 10px #000;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #b00;
+    font-size: 2em;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.subtitle {
+    color: #777;
+    font-style: italic;
+}
+
+.site-info {
+    color: #555;
+    font-size: 0.8em;
+}
+
+.warning {
+    background-color: #300;
+    padding: 10px;
+    border-left: 3px solid #f00;
+    margin-bottom: 20px;
+}
+
+.relato, .teoria, .citacao {
+    background-color: #1a1a1a;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-left: 3px solid #b00;
+}
+
+.comentarios {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px dashed #444;
+}
+
+.comment {
+    color: #999;
+    font-size: 0.9em;
+    margin-left: 20px;
+    font-style: italic;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #b00;
+    text-decoration: none;
+    border: none;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #b00;
+    color: #000;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+    color: #555;
+    text-align: center;
+    border-top: 1px solid #333;
+    padding-top: 10px;
+}
+
+.email {
+    color: #b00;
+    font-family: monospace;
+}
+
+.diferente {
+    color: #f00;
+    font-weight: bold;
+}
